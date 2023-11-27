@@ -1,0 +1,50 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo img{
+    width: 30.41px;
+    height: 30.3px;
+}
+.nav-options{
+    /* flex: 1; */
+    display: flex;
+    /* justify-content: space-evenly */
+}
+.nav-options p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 0 8px;
+    margin: 0 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-options p:hover{
+    background-color: var(--css-yellow);
+    color: var(--css-black);
+}
+.contactUs{
+    border: 2px solid var(--css-white);
+    padding: 14px 36px;
+}
+.contactUs P{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}

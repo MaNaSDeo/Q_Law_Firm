@@ -1,0 +1,98 @@
+.landing-page{
+    /* margin: 0 153px; */
+    background-color: var(--css-black);
+    padding: 53px 153px 0 153px;
+}
+.landing-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.landing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.intro-text-top{
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.intro-text-logo{
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.intro-text-bottom{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.3px;
+    color: var(--css-gray);
+}
+.landing-img{
+    width: 467.71px;
+    height: 544.71px;
+}
+.landing-img img{
+    width: 100%;
+    height: 100%;
+}
+.mail-box{
+    background-color: var(--css-gray);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 43px;
+    display: flex;
+    overflow: hidden;
+    max-width: 438px;
+    height: 74px;
+}
+.mail-box textarea{
+    background-color: inherit;
+    color: var(--css-white);
+    flex: 1;
+    border: none;
+    background-image: url(./images/LandingPage/MailIcon.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 2rem 1.5rem;
+    text-indent: 3.5rem;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 1.4rem;
+}
+.mail-box textarea:focus{
+    background-image: none;
+}
+.mail-box button{
+    background-color: var(--css-yellow);
+    color: var(--css-black);
+    border-radius: 43px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 4px;
+    padding: 0 23px;
+    border: none;
+}
