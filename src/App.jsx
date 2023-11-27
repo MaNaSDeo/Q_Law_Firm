@@ -1,4 +1,5 @@
 import LandingPage from './Component/LandingPage';
+import Introduction from './Component/Introduction';
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
       // }}
     >
       <LandingPage />
+      <Introduction />
     </div>
   )
 }
