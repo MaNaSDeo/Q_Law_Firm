@@ -1,0 +1,56 @@
+.areaOfPractices-page{
+    padding: 0 153px;
+}
+.practice-heading{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.sqr-img img{
+    height: 342px;
+    width: 358px;
+    /* position: relative; */
+}
+.rect-img img{
+    height: 342px;
+    width: 752px;
+    /* position: relative; */
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.second-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.third-row{
+    display: flex;
+    justify-content: center;
+}
+.business, .real-state, .landlord{
+    margin-right: 30px;
+}
+.business, .partnership, .real-state, .business2, .landlord, .elder-abuse{
+    position: relative;
+}
+.business-text, .partnership-text, .real-state-text, .business2-text, .landlord-text, .elder-abuse-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translateY(-50%); */
+    bottom: 2rem;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: rgba(255, 251, 242, 1);
+}

@@ -1,5 +1,6 @@
 import LandingPage from './Component/LandingPage';
 import Introduction from './Component/Introduction';
+import AreaOfPractices from './Component/AreaOfPractices';
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
     >
       <LandingPage />
       <Introduction />
+      <AreaOfPractices />
     </div>
   )
 }
