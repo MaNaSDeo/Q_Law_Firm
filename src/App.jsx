@@ -1,6 +1,7 @@
 import LandingPage from './Component/LandingPage';
 import Introduction from './Component/Introduction';
 import AreaOfPractices from './Component/AreaOfPractices';
+import ClientFeedback from './Component/ClientFeedback';
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
       <LandingPage />
       <Introduction />
       <AreaOfPractices />
+      <ClientFeedback />
     </div>
   )
 }
