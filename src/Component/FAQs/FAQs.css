@@ -1,0 +1,67 @@
+.FAQ-page{
+    margin: 0 153px;
+    /* width: 100%; */
+    padding-bottom: 200px;
+}
+.FAQ-title{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: rgba(255, 255, 255, 1);
+}
+.FAQ-bottom{
+    display: flex;
+    width: 100%;
+}
+.FAQ-left{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, .3);
+    width: 50%;
+    /* padding-right: 50px; */
+}
+.FAQ-right{
+    width: 50%;
+    padding: 0 19px;
+}
+.accordion-summary{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.accordion-details{
+    color: rgba(255, 255, 255, .3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.expand-plus{
+    background-color: rgba(227, 183, 72, 1);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

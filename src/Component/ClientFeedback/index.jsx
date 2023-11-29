@@ -137,27 +137,27 @@ function index() {
                     </button>
                 </div>
             </div>
-        <div className='client-feedback-cards-container'>
-            <Swiper
-                modules={[Navigation]}
-                slidesPerView='3'
-                navigation={{ nextEl: `.arrow-left`, prevEl: `.arrow-right` }}
-            >
-                {clientFeedbackDetails.map(element => {
-                    return(
-                        <SwiperSlide key={element.id} className="feedback-slide" > 
-                        {/* add a custom class name */}
-                            <ClientFeedbackCard
-                                avatar={element.avatar}
-                                userName={element.userName}
-                                post={element.post}
-                                feedback={element.feedback}
-                            />
-                        </SwiperSlide>
-                    )
-                })}
-            </Swiper>
-        </div>
+            <div className='client-feedback-cards-container'>
+                <Swiper
+                    modules={[Navigation]}
+                    slidesPerView='3'
+                    navigation={{ nextEl: `.arrow-left`, prevEl: `.arrow-right` }}
+                >
+                    {clientFeedbackDetails.map(element => {
+                        return(
+                            <SwiperSlide key={element.id} className="feedback-slide" > 
+                            {/* add a custom class name */}
+                                <ClientFeedbackCard
+                                    avatar={element.avatar}
+                                    userName={element.userName}
+                                    post={element.post}
+                                    feedback={element.feedback}
+                                />
+                            </SwiperSlide>
+                        )
+                    })}
+                </Swiper>
+            </div>
         </div>
         <div className="our-team">
             <p className="team-detail">Our Team</p>
