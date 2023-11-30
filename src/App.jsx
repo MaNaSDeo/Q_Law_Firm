@@ -3,6 +3,7 @@ import Introduction from './Component/Introduction';
 import AreaOfPractices from './Component/AreaOfPractices';
 import ClientFeedback from './Component/ClientFeedback';
 import FAQs from './Component/FAQs'
+import Newsletter from './Component/Newsletter'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <AreaOfPractices />
       <ClientFeedback />
       <FAQs />
+      <Newsletter />
     </div>
   )
 }
